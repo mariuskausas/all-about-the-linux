@@ -661,7 +661,6 @@ Host *
 Host servername
         User username
         hostname server.address.com
-
 ```
 
 The `Host *` applies settings to all connections. The settings, the `ForwardX11` options allow you to run graphics tools remotely on a cluster. The `ServerAlive` options keep your connection alive for a while, whilst reconnecting if the internet is down.
